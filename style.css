@@ -1,0 +1,52 @@
+/*Main Styles*/
+body
+{
+    background: #f3f3f3;
+    margin-top: 16px;
+}
+.course-box{
+    height: 500px;
+    background: #26a69a14;
+    overflow-y: scroll;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+}
+
+.collection {
+    margin: 0;
+    direction: rtl;
+    border: none;
+}
+
+.course-box h5
+{
+    text-align: center;
+    color: #27b5a8;
+    margin: 8px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+
+/*Scrollbar Style*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #27b5a8;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #33b9ac;
+}
